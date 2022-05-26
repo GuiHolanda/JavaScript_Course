@@ -11,12 +11,33 @@
             color: white;
             width: 200px;
             height: 200px;
+            font-size: 2em;
+            text-align: center;
+            line-height: 200px;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div id="area">
-        Interaja...
-    </div>
+    <button id="area">Interaja</button>
+    <script>
+        var area = window.document.getElementById('area')
+        area.addEventListener ('click', clicar)
+        area.addEventListener ('mouseenter', entrar)
+        area.addEventListener ('mouseleave', sair)
+
+        function clicar(){
+            area.innerText = "Clicou !"
+            area.style.background = 'red'
+        }
+        function entrar(){
+            area.innerText = "Entrou !"
+        }
+        function sair(){
+            area.innerText = "Saiu !"
+            area.style.background = ' rgb(31, 88, 39)'
+        }
+    </script>
+
 </body>
 </html>
