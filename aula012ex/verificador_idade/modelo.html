@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hora do dia</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <label for="ano">Ano de Nascimento: </label>
+        <input type="number" name="ano" id="ano" placeholder=" Ex: 1997">
+        <P> Sexo:
+            <input type="radio" name="sex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">Femenino</label>
+        </P>
+        <input type="button" value="Verificar" onclick="verificar ()">
+        <p id="result">Preencha os campos acima e clique em <strong>Verificar</strong> para ver o resultado...</p>
+
+        <div id="img"></div>
+
+    </section>
+    <footer>
+        <p>&copy;<a href="https://github.com/GuiHolanda" target="_blank"> Guilherme Holanda</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

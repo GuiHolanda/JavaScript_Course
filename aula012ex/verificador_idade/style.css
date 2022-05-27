@@ -17,3 +17,20 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
 
 }
+
+#result {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 10px 0px 25px ;
+}
+
+#img {
+    display: none;
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+}
