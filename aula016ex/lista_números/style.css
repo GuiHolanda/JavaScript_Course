@@ -1,0 +1,31 @@
+
+body {
+    background-color: rgb(70,142,236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, a {
+    color: white;
+    text-align: center;
+    padding: 30px 10px 20px;
+}
+
+section {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+    padding-bottom: 20px;
+}
+
+#list {
+    width: 150px;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0px 30px;
+    font-weight: normal;
+}
